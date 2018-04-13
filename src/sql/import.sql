@@ -5,8 +5,8 @@ CREATE TABLE tbl_news (
     title TEXT NOT NULL,
     content TEXT,
     write_date TIMESTAMP NOT NULL,
-    image_file BYTEA,
-    image_url TEXT,
+    image_file BYTEA[],
+    image_url TEXT[],
     author_email TEXT NOT NULL,
     like_count INTEGER DEFAULT 0,
     warm_count INTEGER DEFAULT 0,
@@ -25,8 +25,8 @@ COMMENT ON COLUMN tbl_news.crawling_url IS '기사 URL';
 COMMENT ON COLUMN tbl_news.title IS '기사 제목';
 COMMENT ON COLUMN tbl_news.content IS '기사 내용';
 COMMENT ON COLUMN tbl_news.write_date IS '기사 작성 날짜';
-COMMENT ON COLUMN tbl_news.image_file IS '기사 이미지 파일 ''|''으로 구분';
-COMMENT ON COLUMN tbl_news.image_url IS '기사 이미지 URL ''|''으로 구분;
+COMMENT ON COLUMN tbl_news.image_file IS '기사 이미지 파일';
+COMMENT ON COLUMN tbl_news.image_url IS '기사 이미지 URL;
 COMMENT ON COLUMN tbl_news.author_email IS '기사 작성자';
 COMMENT ON COLUMN tbl_news.like_count IS '좋아요 수';
 COMMENT ON COLUMN tbl_news.warm_count IS '훈훈해요 수';
