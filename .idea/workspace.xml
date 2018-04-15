@@ -11,24 +11,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/py/main.py">
+      <file leaf-file-name="newsDao.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/py/newsDao.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="69" column="11" lean-forward="true" selection-start-line="69" selection-start-column="11" selection-end-line="69" selection-end-column="11" />
-              <folding>
-                <element signature="e#33#48#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="57">
+              <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="db.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sql/db.properties">
+      <file leaf-file-name="dbConnect.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/py/dbConnect.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="14" lean-forward="true" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-              <folding />
+            <state relative-caret-position="759">
+              <caret line="46" column="73" lean-forward="false" selection-start-line="46" selection-start-column="73" selection-end-line="46" selection-end-column="73" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -36,19 +36,31 @@
       <file leaf-file-name="newsVo.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/py/newsVo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+            <state relative-caret-position="379">
+              <caret line="25" column="23" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="newsDao.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/py/newsDao.py">
+      <file leaf-file-name="import.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sql/import.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+            <state relative-caret-position="489">
+              <caret line="34" column="49" lean-forward="false" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="49" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/py/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="55" column="28" lean-forward="true" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
+              <folding>
+                <element signature="e#33#48#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -71,10 +83,16 @@
       <find>webdriver</find>
       <find>click()</find>
       <find>parse</find>
-      <find>crawling_url</find>
       <find>keyword</find>
       <find>datetime_format</find>
       <find>news_dict</find>
+      <find>__POOL_SIZE</find>
+      <find>__queuePool</find>
+      <find>image_parse_byte_code</find>
+      <find>crawling_url</find>
+      <find>driver</find>
+      <find>news_list</find>
+      <find>news.naver.com</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -91,15 +109,19 @@
         <option value="$PROJECT_DIR$/src/exam/day02/quiz01.py" />
         <option value="$PROJECT_DIR$/src/maple/pack/py/newsVo.py" />
         <option value="$PROJECT_DIR$/src/maple/pack/py/newsController.py" />
-        <option value="$PROJECT_DIR$/src/py/newsVo.py" />
+        <option value="$PROJECT_DIR$/src/sql/db.properties" />
+        <option value="$PROJECT_DIR$/src/py/dbConnect.py" />
+        <option value="$USER_HOME$/Downloads/quiz.py" />
         <option value="$PROJECT_DIR$/src/sql/import.sql" />
+        <option value="$PROJECT_DIR$/src/py/newsVo.py" />
+        <option value="$PROJECT_DIR$/src/py/newsDao.py" />
         <option value="$PROJECT_DIR$/src/py/main.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="639" />
-    <option name="y" value="198" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="335" />
+    <option name="y" value="291" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -118,7 +140,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -147,6 +168,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -188,6 +210,24 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.main">
+    <configuration name="dbConnect" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/py" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="study" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/py/dbConnect.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -242,56 +282,38 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="newsDao (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="newsDao" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/maple/pack/py" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/py" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="study" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/maple/pack/py/newsDao.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="quiz01" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/exam/day02" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="study" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/exam/day02/quiz01.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/py/newsDao.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.newsDao (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Python.newsController" />
-      <item index="2" class="java.lang.String" itemvalue="Python.quiz01" />
-      <item index="3" class="java.lang.String" itemvalue="Python.newsController (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Python.main" />
+      <item index="0" class="java.lang.String" itemvalue="Python.newsController" />
+      <item index="1" class="java.lang.String" itemvalue="Python.newsController (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Python.main" />
+      <item index="3" class="java.lang.String" itemvalue="Python.dbConnect" />
+      <item index="4" class="java.lang.String" itemvalue="Python.newsDao" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.main" />
-        <item index="1" class="java.lang.String" itemvalue="Python.newsController (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Python.newsController" />
-        <item index="3" class="java.lang.String" itemvalue="Python.quiz01" />
-        <item index="4" class="java.lang.String" itemvalue="Python.newsDao (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.newsDao" />
+        <item index="2" class="java.lang.String" itemvalue="Python.dbConnect" />
+        <item index="3" class="java.lang.String" itemvalue="Python.newsController (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Python.newsController" />
       </list>
     </recent_temporary>
   </component>
@@ -312,16 +334,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10115912" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2437432" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2437432" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861805" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -331,6 +352,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -338,16 +360,12 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/maple/inc___avforums_articles.py" />
-    <entry file="file://$PROJECT_DIR$/src/exam/day03/file-/file-quiz01.py" />
-    <entry file="file://$PROJECT_DIR$/src/exam/day03/file-/file.py" />
-    <entry file="file://$PROJECT_DIR$/src/exam/day03/file-/auto-close.py" />
-    <entry file="file://$PROJECT_DIR$/src/exam/day03/file-/object-write-test01.txt" />
-    <entry file="file://$PROJECT_DIR$/src/exam/day03/file-/object-write.py" />
     <entry file="file://$PROJECT_DIR$/src/exam/day03/file-/object-copy-test01-copy.jpg" />
     <entry file="file://$PROJECT_DIR$/src/exam/day03/file-/object-copy-test01.jpg" />
     <entry file="file://$PROJECT_DIR$/src/exam/day03/file-/file-Write-Test01-copy.txt" />
@@ -422,55 +440,95 @@
     <entry file="file://$PROJECT_DIR$/src/maple/pack/py/newsVo.py" />
     <entry file="file://$PROJECT_DIR$/src/maple/pack/py/newsController.py" />
     <entry file="file://$PROJECT_DIR$/src/maple/pack/py/geckodriver.log" />
-    <entry file="file://$PROJECT_DIR$/src/py/aaa.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/selenium/webdriver/remote/errorhandler.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="479">
           <caret line="241" column="0" lean-forward="false" selection-start-line="241" selection-start-column="0" selection-end-line="241" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/py/aaa.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/sql/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2017.3/system/python_stubs/-1865752894/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="809" column="8" lean-forward="false" selection-start-line="809" selection-start-column="8" selection-end-line="809" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://H:/알고리즘_풀이/프로그래머스/level3-야근 지수/py/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://H:/알고리즘_풀이/프로그래머스/level3-멀리 뛰기/py/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/datetime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="1359" column="6" lean-forward="false" selection-start-line="1359" selection-start-column="6" selection-end-line="1359" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/quiz.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="29" column="87" lean-forward="false" selection-start-line="29" selection-start-column="87" selection-end-line="29" selection-end-column="87" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/py/newsVo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/py/newsDao.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        <state relative-caret-position="379">
+          <caret line="25" column="23" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sql/import.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-613">
-          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        <state relative-caret-position="489">
+          <caret line="34" column="49" lean-forward="false" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sql/db.properties">
+    <entry file="file://$PROJECT_DIR$/src/py/dbConnect.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="14" lean-forward="true" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+        <state relative-caret-position="759">
+          <caret line="46" column="73" lean-forward="false" selection-start-line="46" selection-start-column="73" selection-end-line="46" selection-end-column="73" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/py/newsDao.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/py/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="69" column="11" lean-forward="true" selection-start-line="69" selection-start-column="11" selection-end-line="69" selection-end-column="11" />
+        <state relative-caret-position="76">
+          <caret line="55" column="28" lean-forward="true" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
           <folding>
             <element signature="e#33#48#0" expanded="true" />
           </folding>

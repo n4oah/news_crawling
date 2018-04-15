@@ -27,13 +27,11 @@ COMMENT ON COLUMN tbl_news.content IS '기사 내용';
 COMMENT ON COLUMN tbl_news.write_date IS '기사 작성 날짜';
 COMMENT ON COLUMN tbl_news.image_file IS '기사 이미지 파일';
 COMMENT ON COLUMN tbl_news.image_url IS '기사 이미지 URL;
-COMMENT ON COLUMN tbl_news.author_email IS '기사 작성자';
 COMMENT ON COLUMN tbl_news.like_count IS '좋아요 수';
 COMMENT ON COLUMN tbl_news.warm_count IS '훈훈해요 수';
-COMMENT ON COLUMN tbl_news.unlike_count IS '슬퍼요 수';
+COMMENT ON COLUMN tbl_news.sad_count IS '슬퍼요 수';
 COMMENT ON COLUMN tbl_news.angry_count IS '화나요 수';
 COMMENT ON COLUMN tbl_news.want_count IS '후속기사 원해요 수';
-COMMENT ON COLUMN tbl_news.recom_count IS '모바일 메인 추천 수';
 COMMENT ON COLUMN tbl_news.crawling_gtm IS '수집 일자';
 ------------------------- TBL_NEWS COMMENT -------------------------
 
