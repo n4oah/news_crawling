@@ -20,8 +20,7 @@ CONTEXT = 'http://news.naver.com/'
 SEED_URL = 'News'
 '''
 
-KEYWORD = set()
-KEYWORD.add('ㄱㅂ')
+KEYWORD = ('ㄱㅂ',)
 
 START_DATE = datetime.datetime.now() - datetime.timedelta(weeks=1)
 END_DATE = datetime.datetime.now()
@@ -129,8 +128,7 @@ def news_comment_crawling(driver, news_comment_vo):
 
 if __name__ == "__main__":
     print('크롤링을 시작합니다.')
-    global e
-    e = 3
+
     for keyword in KEYWORD:
         print('검색 키워드 : ', keyword)
         news_crawling(keyword)
